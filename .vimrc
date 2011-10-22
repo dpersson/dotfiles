@@ -27,6 +27,8 @@ set laststatus=2
 set number
 set undofile
 
+let mapleader = ","
+
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
@@ -38,3 +40,8 @@ set hlsearch
 nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
+
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85
