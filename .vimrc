@@ -62,3 +62,4 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 au FocusLost * :wa
+syntax on
