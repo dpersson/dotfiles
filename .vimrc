@@ -62,4 +62,6 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 au FocusLost * :wa
-syntax on
+syntax enable
+set background=dark
+colorscheme solarized
